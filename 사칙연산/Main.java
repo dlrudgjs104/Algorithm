@@ -9,8 +9,12 @@ public class Main {
                 int a = scanner.nextInt();
                 int b = scanner.nextInt();
 
-                if (a > 0 && a < 10 && b > 0 && b < 10) {
+                if (a >= 1 && a <= 10000 && b >= 1 && b <= 10000) {
                     System.out.println(a + b);
+                    System.out.println(a - b);
+                    System.out.println(a * b);
+                    System.out.println(a / b);
+                    System.out.println(a % b);
                     break;
                 }
             }
