@@ -7,14 +7,9 @@ public class Main {
 
         long n = scanner.nextLong();
 
-        if (n <= 2) {
-            System.out.println((n * n * n - 3 * n * n + 2 * n) / 6);
-        } else {
-            System.out.println((n * n * n - 3 * n * n + 2 * n) / 6);
-        }
-
+        System.out.println((n * n * n - 3 * n * n + 2 * n) / 6);
         System.out.println(3);
-        
+
         scanner.close();
     }
 }
